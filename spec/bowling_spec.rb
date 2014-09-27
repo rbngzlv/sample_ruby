@@ -10,6 +10,6 @@ describe Bowling, "#score" do
 
   it “fails test para ver” do
     bowling = Bowling.new
-    bowling.score.should eq(5)
+    bowling.score.should eq(0)
   end
 end
