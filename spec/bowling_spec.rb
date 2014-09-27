@@ -8,7 +8,7 @@ describe Bowling, "#score" do
     bowling.score.should eq(0)
   end
 
-  it “fails test para ver” do
+  it "fails test para ver" do
     bowling = Bowling.new
     bowling.score.should eq(0)
   end
