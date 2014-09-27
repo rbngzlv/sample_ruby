@@ -7,4 +7,9 @@ describe Bowling, "#score" do
     20.times { bowling.hit(0) }
     bowling.score.should eq(0)
   end
+
+  it “fails test para ver” do
+    bowling = Bowling.new
+    bowling.score.should eq(5)
+  end
 end
