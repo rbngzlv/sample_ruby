@@ -12,4 +12,9 @@ describe Bowling, "#score" do
     bowling = Bowling.new
     bowling.score.should eq(0)
   end
+
+  it "third test" do
+    bowling = Bowling.new
+    bowling.score.should eq(0)
+  end
 end
