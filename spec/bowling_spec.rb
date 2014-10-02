@@ -15,6 +15,6 @@ describe Bowling, "#score" do
 
   it "third test" do
     bowling = Bowling.new
-    bowling.score.should eq(0)
+    bowling.score.should eq(3)
   end
 end
